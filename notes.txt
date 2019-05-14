@@ -33,7 +33,7 @@ docker run -it --runtime=nvidia --name <name of the container> -v <host folder p
      2. SET GUI in DOCKER
         --network=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw"
 
----- Example: sudo docker run -it --runtime=nvidia --name opencv_nodeflux_project3 -v "$(pwd)":/home --network=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw"  --entrypoint /bin/bash opencv32:0.1.1
+---- Example: sudo docker run -it --runtime=nvidia --name qoala -v "$(pwd)":/home --network=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw"  --entrypoint /bin/bash tensorflow/tensorflow:1.12.0-devel-gpu-py3
 
 
 
