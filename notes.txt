@@ -1,13 +1,15 @@
 DOCKER NOTE
 
 --- For Creating Docker file
-1. Run a linux command
+1. Run a linux command (Execute when docker build/create image)
    use: RUN <ubuntu command>
-2. ADD a FOLDER to THE DOCKE:
+2. ADD a FOLDER to THE DOCKER:
    use: ADD <folder path>
 3. Change docker directory
    use: WORKDIR <folder path>
-4. Clone github
+4. Run terminal command while running container\
+   use: CMD [terminal command]
+5. Clone github
    use: git clone https://<usermname>:<password>@bitbucket.org/verysmartdonkey/base-detector.git
 
 
